@@ -69,18 +69,18 @@ pre[class*="language-"],
 // Code blocks
 pre[class*="language-"] {
 	padding: $prism-padding;
-	@include border-radius($prism-border-radius);
+	border-radius: $prism-border-radius;
 	border: $prism-border;
 
 	// &.linenums {
-	// 	@include box-shadow(inset $prettify-linenums-width 0 0 $prettify-linenums-background, inset ($prettify-linenums-width + $prettify-linenums-border-width) 0 0 $prettify-linenums-border-color);
-	// 	padding-left: $prettify-linenums-padding;
+	// 	box-shadow: inset $prism-linenums-width 0 0 $prism-linenums-background, inset ($prism-linenums-width + $prism-linenums-border-width) 0 0 $prism-linenums-border-color;
+	// 	padding-left: $prism-linenums-padding;
 	// }
 
 	// // Specify class=linenums on a pre to get line numbering
 	// ol.linenums {
 	// 	// IE indents via margin-left
-	// 	margin: 0 0 0 $prettify-linenums-width;
+	// 	margin: 0 0 0 $prism-linenums-width;
 	// 	padding-left: 0;
 	// }
 }
