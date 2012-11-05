@@ -3,7 +3,7 @@
 
 A prism.js theme inspired by [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/), written using Sass
 
-![render example](prism-monokai-theme-example.png)
+![render example](prism-sass-theme-monokai/blob/master/prism-monokai-theme-example.png?raw=true)
 
 See it in action on the [@MoOx/compass-recipes website](http://compass-recipes.moox.fr/)
 
