@@ -24,3 +24,11 @@ $code-color-selector:       #a6e22d;
 
 @import "prism";
 ```
+
+## Example
+
+Inspired by [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)
+
+![monokai example](screenshot.png)
+
+To get this example, just grab the `tests/s.scss` file.
