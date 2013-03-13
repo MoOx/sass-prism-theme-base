@@ -32,3 +32,10 @@ Inspired by [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme
 ![monokai example](screenshot.png)
 
 To get this example, just grab the `tests/s.scss` file.
+
+## License
+
+Copyright (c) 2013 Maxime Thirouin
+
+Released under [MIT Licence](http://moox.mit-license.org/)
+
