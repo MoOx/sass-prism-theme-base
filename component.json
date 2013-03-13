@@ -1,0 +1,16 @@
+{
+  "name": "prism-theme-base",
+  "repo": "MoOx/sass-prism-theme-base",
+  "description": "A prism.js theme base in Sass. Including an example inspired by Monokai.",
+  "author": "Maxime Thirouin",
+  "main": "_prism.scss",
+  "version": "0.2.0",
+  "dependencies": {},
+  "remotes": [
+    "http://fonzie.herokuapp.com/packages"
+  ],
+  "files": [
+    "_prism.scss"
+  ],
+  "license": "MIT"
+}
