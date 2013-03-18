@@ -24,6 +24,14 @@ $interpolation: -vendor-#{$var};</code></pre>
 	&.parentSelector {
 		nested & test #{$inter}pol {}
 	}
+
+	pseudo::before { }
+
+	:hover { }
+
+	a:visited {
+		prop: value
+	}
 }</code></pre>
 
 <h2>Directives</h2>
@@ -125,8 +133,17 @@ selector {
 
 <h2>Inline example</h2>
 <code>.text { value: 3px url('tryme') #fff; }</code>
+
+<h2>Weird case</h2>
+<pre><code>@mixin base-type($weight, $line-height, $font-size, $font-family...) {
+	@if $serif-boolean {
+		font: $weight #{$font-size}%/#{$line-height} $font-family;
+	}@else {
+		font: $weight #{$font-size}%/#{$line-height} $font-family-sans;
+	}
+}</code></pre>
+
 </section>
 
 <script src="https://rawgithub.com/LeaVerou/prism/gh-pages/prism.js" data-default-language="scss"></script>
 <script src="https://rawgithub.com/LeaVerou/prism/gh-pages/components/prism-scss.js"></script>
-
